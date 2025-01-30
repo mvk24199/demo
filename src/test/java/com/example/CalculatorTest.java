@@ -7,12 +7,12 @@ public class CalculatorTest {
     @Test
     public void testAdd(){
         Calculator calc = new Calculator();
-        asserEquals("Should return 5",5,calc.add(2,3));
+        assertEquals("Should return 5",5,calc.add(2,3));
     }
 
     @Test
     public void testMulitply(){
         Calculator calc = new Calculator();
-        asserEquals("Should return 6",6,calc.add(2,3));
+        assertEquals("Should return 6",6,calc.add(2,3));
     }
 }
